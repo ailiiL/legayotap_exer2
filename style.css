@@ -1,3 +1,46 @@
 body{
     background-color: #eee;
+    margin: 0%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    
+
+}
+
+.nav{
+    background-color: #edd5ad;
+    height: 50px;
+}
+
+.welcome{
+    background-color: 	#f0e0bb;
+    height: 400px;
+}
+
+.projects{
+    background-color: #f2e8d0;
+    height: 200px;
+}
+
+.SA{
+    background-color: #19869c;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: #eee;
+}
+
+.footer{
+    color: #eee;
+    background-color: #3d5066;
+    height: 100px;
+    display: flex;
 }
