@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <Title>Website Portfolio</Title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My Website Portfolio">
+        <title>Website Portfolio</title>
+        <link rel="stylesheet" href="styles.css"> 
     </head>
     <body>
-        <div class="wrapper">
-            <!--NAV-->
-            <div class="container nav"></div>
-            
-            <!--WELCOME-->
-            <div class="container welcome"></div>
-            
-            <!--PROJECTS-->
-            <div class="container projects">
-                <p>Previous Projects</p>
-            </div>
-            
-            <!--SKILLS AND AUTOBIOGRAPHY-->
-            <div class="container SA">
-                <div>
-                    <p>Skills</p>
-                </div>
-                <div>
-                    <p>Autobiography</p>
-                </div>
-            </div>
+        <header>
+            <img id="logo" src="src\logo.png" alt="logo">
+            <h1>| website portfolio. </h1>
+            <nav>
+                <ul>
+                    <li><a href="#projects">/projects</a></li>
+                    <li><a href="#skills">/skills</a></li>
+                    <li><a href="#autobiography">/autobiography</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section role="region" aria-labelledby="featuredphoto">
+                <figure id="img-div">
+                    <img src="src\featuredPhoto.jpg" id="image" alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists">
+                    <figcaption id="img-caption">The Great Wave <em>by Hokusai</em></figcaption>
+            </section>
 
-            
-            <!--FOOTER-->
-            <div class="container footer">
-                <h1>Get in touch</h1>
-                <p>213 San Lazaro St. Baler, Aurora</p>
-                <p>Contact: 09123456789</p>
-                <p>Email address: mistertumas@up.edu.ph</p>
-                <p>Copyright (c) 2024 © Mister Tumas</p>
-            </div>
-        </div>
+            <section role="region" aria-labelledby="projects">
+                <h2 id="projects">/projects.</h2>
+            </section>
+
+            <section role="region" aria-labelledby="skills">
+                <h2 id="skills">/skills.</h2>
+            </section>
+
+            <section role="region" aria-labelledby="autobiography">
+                <h2 id="autobiography">/autobiography.</h2>
+            </section>
+        </main>
     </body>
+    <footer>
+        <address>
+          <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Visit my website.</a><br />
+          tplegayo@up.edu.ph / 09123456789<br />
+          Harold Cuzner Ave. Batong Malake, Los Baños, Laguna, 4030, PH<br />
+          © 2024 Ai'Lii Website Portfolio / All Rights Reserved<br />
+          <a href="#img-div">Back to Top</a>
+        </address>
+      </footer>
 </html>
